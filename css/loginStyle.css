@@ -1,0 +1,167 @@
+.contentPicture {
+    width: 100%;
+    height: 45%;
+}
+.formDesign {
+    padding: 5%;
+    box-shadow: 1px 1px 5px 3px rgb(228, 226, 226);
+    border: white 1px solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.formDesign div {
+    margin-bottom: 0;
+}
+.registerButtonDesign {
+   width: 249.500px ; 
+   background-color: #212529;
+   color: white;
+   margin: 5% 0 6% 0;
+}
+.registerButtonDesign:hover {
+    background-color: #45474B;
+    color: white;
+}
+.orDesign {
+    text-align: center;
+    color: white;
+   border-radius: 50%; 
+   width: 50px;
+   height: 50px;
+   background-color: #7D8D9E;
+   padding-top: 3%;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   position:absolute;
+   right: 36%;
+   bottom:-5.5%;
+}
+#appleBtn {
+    margin-top: 14%!important;
+}
+#googleBtn {
+    margin-bottom: 9%!important;
+}
+#containForm2 {
+    background-color: #E8EAEE;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 40%;
+
+}
+#containForm2 button {
+   text-align: center;
+   padding: 5%;
+   background-color: #212529;
+   color: white;
+   width: 80%;
+   transform: translateX(14.5%);
+   height: 20%;
+   border-radius:5px ;
+   -webkit-border-radius:5px ;
+   -moz-border-radius:5px ;
+   -ms-border-radius:5px ;
+   -o-border-radius:5px ;
+   -webkit-transform: translateX(14.5%);
+   -moz-transform: translateX(14.5%);
+   -ms-transform: translateX(14.5%);
+   -o-transform: translateX(14.5%);
+}
+.keepMe {
+    margin:auto;
+    margin-top: -5%!important;
+}
+#loginBtn {
+    margin-top: 1%!important;
+}
+.forgotPass {
+    margin:auto;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width:1050px) {
+    #adjustMedia {
+        display:block!important;
+        transform: translateX(-10%);
+        margin-top: 0!important;
+        
+    }
+    #containContent {
+        max-width: 100%!important;
+        
+    }
+    #containForm1 {
+        transform: translateX(4%);
+    }
+    #formDesign {
+        overflow:visible!important;
+    }
+}
+
+
+
+@media screen and (min-width:1400px) {
+    #adjustMedia {
+        transform: translateX(-14%);
+    }
+    #containContent {
+        max-width: 50%!important;
+    }
+    #containForm1 {
+        margin-left: 15%!important;
+    }
+    
+}
+@media screen and (max-width:1050px) {
+    #googleBtn {
+        margin-bottom: 5%!important;
+    }
+    #appleBtn {
+        margin-top: 6%!important;
+    }
+    .keepMe {
+        margin:auto;
+        margin-top: -5%!important;
+    }
+    .orDesign {
+        left: 0%;
+        padding-top: 1.3%;
+    }
+}
+@media screen and (max-width:770px) {
+    #googleBtn {
+        margin-bottom: 5%!important;
+    }
+    #appleBtn {
+        margin-top: 8%!important;
+    }
+    .keepMe {
+        margin:auto;
+        margin-top: -5%!important;
+    }
+    .orDesign {
+        left: 0%;
+        padding-top: 2.5%;
+    }
+}
+@media screen and (max-width:520px) {
+    #googleBtn {
+        margin-bottom: 5%!important;
+    }
+    #appleBtn {
+        margin-top: 10%!important;
+    }
+    .keepMe {
+        margin:auto;
+        margin-top: -5%!important;
+    }
+    .orDesign {
+        left: 0%;
+        padding-top: 3%;
+    }
+}

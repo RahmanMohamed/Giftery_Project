@@ -1,0 +1,30 @@
+body {
+    background-color:whitesmoke;
+}
+.imgOne {
+    width: 20%!important;
+}
+.imgTwo {
+    width: 20%!important;
+    
+}
+@media only screen and (max-width:1200px) {
+.imgTwo {
+    width: 40%!important;
+}
+}
+@media only screen and (max-width:772px) {
+.imgTwo {
+    width: 70%!important;
+}
+}
+@media only screen and (max-width:1200px) {
+.imgOne {
+    width: 30%!important;
+}
+}
+@media only screen and (max-width:772px) {
+.imgOne {
+    width: 70%!important;
+}
+}

@@ -19,22 +19,443 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- GOOGLE FONTS -->
 
+    <!-- JQUERY PLUGIN -->
+    <link href="css/skitter.css" type="text/css" media="all" rel="stylesheet" />
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- MY STYLE SHEETS  -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/specialNeeds.css">
 </head>
 
-<body>
-
-
-
-
-
-
-
-
-
+<body class="">
+<!-- start navbar section -->
+<section class="row  bg-bink fixed-top zindex-fixed">
+  <div class="col-lg-9">
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="img/web-logo.jpg" alt="" class="logo logo-navbar ">
+            </a>
+            <div class="dropdown-menu bg-bnafsg p-3" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item btn py-2 px-3 mb-1  bg-bnafsg text-white gift-show-btn" href="index.html">Home</a>
+              <a class="dropdown-item btn py-2 px-3 mb-1  bg-bnafsg text-white gift-show-btn" href="aboutUs.html">About</a>
+              <a class="dropdown-item btn py-2 px-3 mb-1  bg-bnafsg text-white gift-show-btn" href="#">Service</a>
+              <a class="dropdown-item btn py-2 px-3 mb-1  bg-bnafsg text-white gift-show-btn" href="products.html">Gallery</a>
+              <a class="dropdown-item btn py-2 px-3 mb-1  bg-bnafsg text-white gift-show-btn" href="#">Team</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>
+  <div class="col-lg-3 ">
+    <div class="pt-4 d-flex justify-content-center pb-2">
+      <div class="">
+        <a class="nav-link icon-navbar-border btn p-2 d-flex justify-content-center align-items-center ml-2" href="#"><i class="fas fa-headset text-white navbar-icon "></i></a>
+      </div>
+      <div class="">
+        <a class="nav-link icon-navbar-border btn p-2 d-flex justify-content-center align-items-center ml-2" href="#"><i class="fas fa-search text-white navbar-icon "></i></a>
+      </div>
+      <div class="">
+        <a class="nav-link icon-navbar-border btn p-2 d-flex justify-content-center align-items-center ml-2" href="login.html"><i class="fas fa-user-edit text-white navbar-icon "></i></a>
+      </div>
+      <div class="">
+        <a class="nav-link icon-navbar-border btn p-2 d-flex justify-content-center align-items-center ml-2 " href="#"><i class="fas fa-shopping-cart text-white navbar-icon "></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end navbar section -->
+<!-- strat home section   -->
+<header class="vh-100">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/test2.jpg" class="d-block w-100 vh-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/test2.jpg" class="d-block w-100 vh-100" alt="...">
+      </div>
+    </div>
+    <!-- <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
+  </div>
+</header>
+<!-- end home section  --> 
+<!-- start perfect present section -->
+<section class="my-5">
+  <h2 class="client_h2">PERFECT PRESENTS</h2>
+  <div class="container-fluid my-5">
+    <div class="row justify-content-center">
+         <div class="col-lg-7 col-md-12 position-relative">
+          <img src="img/passet 1 (1).jpeg" alt="gift1" class="w-100 mb-3" >
+          <div class="position-absolute box-perfect-present ">
+            <h2 class="mb-0 font-weight-bold text-white py-1">SPLURGE WORTHY GIFTS</p>
+            <a href="single.html" class="btn py-2 px-3 ml-1 bg-main-color text-white  gift-show-btn">SHOP NOW</a>
+          </div>
+         </div> 
+         <div class="col-lg-5 col-md-12 row justify-content-center ">
+           <div class="col-lg-6 col-md-12 mb-1">
+             <div class="">
+               <img src="img/passet 1 (2).jpeg" alt="gift1" class="w-100" >
+             </div>
+             <div class="">
+               <p class="mb-0 font-weight-normal py-1">GIFTS UNDER $30</p>
+               <a href="single.html" class="btn p-1 ml-1 bg-main-color text-white  gift-show-btn">SHOP NOW</a>
+             </div>
+           </div>
+           <div class="col-lg-6 col-md-12 mb-1">
+            <div class="">
+              <img src="img/passet 1 (3).jpeg" alt="gift1" class="w-100" >
+            </div>
+            <div class="">
+              <p class="mb-0 font-weight-normal py-1">GIFTS UNDER $50</p>
+              <a href="single.html" class="btn p-1 ml-1 bg-main-color text-white  gift-show-btn">SHOP NOW</a>
+            </div>
+           </div>
+           <div class="col-lg-6 col-md-12 mb-1">
+            <div class="">
+              <img src="img/passet 1 (4).jpeg" alt="gift1" class="w-100" >
+            </div>
+            <div class="">
+              <p class="mb-0 font-weight-normal py-1">GIFTS UNDER $100</p>
+              <a href="single.html" class="btn p-1 ml-1 bg-main-color text-white  gift-show-btn">SHOP NOW</a>
+            </div>
+           </div>
+           <div class="col-lg-6 col-md-12 mb-1">
+            <div class="">
+              <img src="img/passet 1 (5).jpeg" alt="gift1" class="w-100" >
+            </div>
+            <div class="">
+              <p class="mb-0 font-weight-normal py-1">GIFTS UNDER $225</p>
+              <a href="single.html" class="btn p-1 ml-1 bg-main-color text-white  gift-show-btn">SHOP NOW</a>
+            </div>
+           </div>
+         </div>    
+    </div>
+</div>
+ </section>
+<!-- end perfect present section -->
+<!-- strat gift shop section   -->
+<section class="">
+  <div class="bg-blackgray vh-100 position-relative">
+    <div class="gift-sop-video">
+      <video autoplay muted loop class="vh-100 w-100">
+         <source src="media/Gift Hampers Australia - Corporate Gifts Services Melbourne - Bindle_2.mp4">
+      </video>
+    </div>
+    <div class="cover-gift-shop-video position-absolute ">
+      <h3 class="text-gift-shop text-white">Delivering exquisitely presented, handmade gift, Egyptian-designed gifts, your gifts since 2021.</h3>
+      <a href="products.html" class="btn px-4 py-2 my-5 bg-main-color text-white  gift-show-btn">Shop Gift</a>
+    </div>
+  </div>
+</section>
+<!-- end gift shop section  --> 
+<!-- strat Our Clients section   -->
+ <section class="pt-5">
+  <h2 class="client_h2">OUR CLIENTS</h2>
+  <div class="container my-5">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 my-3 ">
+           <div id="clientBox" class="position-relative">
+                <img class="w-100 img-client" src="img/1.JPG" alt="photo">
+           </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 my-3 ">
+          <div id="clientBox" class="position-relative">
+              <img class="w-100 img-client" src="img/2.JPG" alt="photo">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 my-3 ">
+          <div id="clientBox" class="position-relative">
+              <img class="w-100 img-client" src="img/3.JPG" alt="photo">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 my-3 ">
+          <div id="clientBox" class="position-relative">
+              <img class="w-100 img-client" src="img/4.JPG" alt="photo">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 my-3 ">
+          <div id="clientBox" class="position-relative">
+              <img class="w-100 img-client" src="img/5.JPG" alt="photo">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 my-3 ">
+          <div id="clientBox" class="position-relative">
+              <img class="w-100img-client " src="img/6.JPG" alt="photo">    
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 my-3 ">
+          <div id="clientBox" class="position-relative">
+              <img class="w-100 img-client " src="img/7.JPG" alt="photo">    
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 my-3">
+          <div id="clientBox" class="position-relative">
+              <img class="w-100 img-client" src="img/8.JPG" alt="photo">    
+          </div>
+        </div>       
+    </div>
+</div>
+<div id="lightBox" class="position-fixed  justify-content-center align-items-center">
+    <div id="smallLightBox" class="position-relative w-50 ">
+    <img id="imgLightBox" src="" alt="photo" class="w-100">
+    <i id="nextArrow" class="fas fa-arrow-alt-circle-right position-absolute"></i>
+    <i id="prevArrow" class="fas fa-arrow-alt-circle-left position-absolute"></i>
+    <i id="clossBtn" class="fas fa-times-circle position-absolute"></i>
+    </div>
+</div>
+ </section>
+<!-- end Our Clients section  -->  
+<!-- strat offer section   -->
+<section class="offer-section bg-main2-color pt-5  pl-5 ">
+    <div class="row mr-0 pl-5">
+    <div class="col-lg-7 col-md-12 ">
+        <div class="cate-discount">
+            <div class="skitter skitter-large with-dots px-0 ">
+                <ul>
+                  <li>
+                    <a href="#cut">
+                      <img src="img/asset 0.jpeg" class="cut" />
+                    </a>
+                    <div class="label_text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <a href="single.html" class="btn btn-xs btn-warning">See more</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#swapBlocks">
+                      <img src="img/asset 1.jpeg" class="swapBlocks" />
+                    </a>
+                    <div class="label_text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <a href="single.html" class="btn btn-xs btn-warning">See more</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#swapBarsBack">
+                      <img src="img/asset 2.jpeg" class="swapBarsBack" />
+                    </a>
+                    <div class="label_text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <a href="single.html" class="btn btn-xs btn-warning">See more</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#cut">
+                      <img src="img/asset 6.jpeg" class="cut" />
+                    </a>
+                    <div class="label_text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <a href="single.html" class="btn btn-xs btn-warning">See more</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#swapBlocks">
+                      <img src="img/asset 7.jpeg" class="swapBlocks" />
+                    </a>
+                    <div class="label_text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <a href="single.html" class="btn btn-xs btn-warning">See more</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#swapBarsBack">
+                      <img src="img/asset 8.jpeg" class="swapBarsBack" />
+                    </a>
+                    <div class="label_text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <a href="single.html" class="btn btn-xs btn-warning">See more</a>
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </div> 
+     </div>
+     <div class="col-lg-5 col-md-12 bg-main2-color row align-items-center justify-content-center  ">
+         <div class="img-cate-discount d-flex justify-content-center ">
+             <img src="img/offerimage.jpg " alt="" class="img-discount  logo">
+         </div>
+     </div>
+    </div>
+</section>
+<!-- end offer section  -->  
+<!-- strat spensored ads section   -->
+<section class="bg-grey-color">
+    <div class=" w-50 ">
+    <img src="img/advertise.png" alt="" class=" w-75 view-25 ml-lg-5 pl-lg-5 ">
+    </div>
+</section>
+<!-- end spensored ads section  -->
+<!-- Special Needs Button -->
+<div id="cogContainer" class="cogContainer">
+  <span id="spanContainer" class="">
+      <p class="hideText d-inline text-md-center px-1" id="hideText">Hide</p>
+   <i  class="fab fa-accessible-icon cogWheel pr-1" id="cogWheel"></i></span>
+   
+</div>
+<div id="handicapOptions" class="">
+   <section class="accessSec">
+       <p>Accessibility Menu</p>
+   </section>
+   <section class="row optionsSec">
+       <div class="col-md-6 py-md-5">
+           <div class="blockOne">
+               <i class="fas fa-universal-access"></i>
+               <span class="d-block">Option 1</span>
+           </div>
+               <div class="blockTwo mt-md-5">
+                   <i class="fas fa-universal-access"></i>
+                   <span class="d-block">Option 2</span>
+               </div>
+           
+       </div>
+       <div class="col-md-6 py-md-5">
+           <div class="blockThree">
+               <i class="fas fa-universal-access"></i>
+               <span class="d-block">Option 3</span>
+           </div>
+           <div class="blockFour mt-md-5">
+               <i class="fas fa-universal-access"></i>
+               <span class="d-block">Option 4</span>
+           </div>
+       </div>
+       
+   </section>
+</div> 
+<!-- Special Needs End -->
+<!-- start footer section -->
+<footer class="" id="footer">
+    <div class="bg-main-color">
+    <section class=" container-fluid row  p-5">
+        <div class="col-lg-2 col-md-6 mb-3 ">
+            <div class="">
+                <h4 class="py-3 font-weight-normal text-white"> shop </h4>
+                <ul class="list-group list-unstyled">
+                    <li class="footer-list"><a href="products.html" class="text-white">Be Inspired</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Best Sellers</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Shop</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Adults</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Kids</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Babies</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Stationery & Cards</a></li>
+                    <li class=""><a href="products.html" class="text-white">Best Blog Ever</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-6  mb-3">
+            <div class="">
+                <h4 class="py-3 font-weight-normal text-white">Shop By Price</h4>
+                <ul class="list-group list-unstyled">
+                    <li class="footer-list"><a href="products.html" class="text-white">Under $30</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Under $50</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Under $100</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Under $250</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Splurge Worthy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-3 ">
+            <div class="">
+                <h4 class="py-3 font-weight-normal text-white"> Shop By Age </h4>
+                <ul class="list-group list-unstyled">
+                    <li class="footer-list"><a href="products.html" class="text-white">0-18 Months</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Ages 2-4</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Ages 5-8</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Ages 9-10</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Tweens</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Teens & Young Adults</a></li>
+                    <li class="footer-list"><a href="products.html" class="text-white">Adults</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-6  mb-3">
+            <div class="">
+                <h4 class="py-3 font-weight-normal  text-white">Customer Care</h4>
+                <ul class="list-group list-unstyled ">
+                    <li class="footer-list"><a href="aboutUs.html" class="text-white">Visit Us</a></li>
+                    <li class="footer-list"><a href="aboutUs.html" class="text-white">Our Story</a></li>
+                    <li class="footer-list"><a href="" class="text-white">Press</a></li>
+                    <li class="footer-list"><a href="" class="text-white">Corporate Gifts</a></li>
+                    <li class="footer-list"><a href="" class="text-white">Gift Registry</a></li>
+                    <li class="footer-list"><a href="" class="text-white">Shipping & Returns</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12 ">
+            <div class="d-flex justify-content-center">
+               <img class=" logo " src="img/web-logo.jpg" alt=""> 
+            </div>
+            <div class="row justify-content-center ">
+                <div class="">
+                    <ul class="row justify-content-center mr-auto list-unstyled">
+                        <li class="nav-item pl-lg-5 ">
+                            <a class="nav-link " href="#"><i class="fab fa-twitter text-white twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-instagram text-white instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-facebook-f text-white facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-pinterest text-white pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+            <div class="row justify-content-center ">
+                <div class="">
+                    <ul class="row justify-content-center mr-auto list-unstyled">
+                        <li class="nav-item pl-lg-5 ">
+                            <a class="nav-link" href="#"><i class="fab fa-cc-paypal text-white buyicon"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-cc-visa text-white buyicon"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-cc-mastercard text-white buyicon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <div class="bg-black py-3 ">
+            <div class=" box-copyright">
+                <p class="text-white">Copyright © 2021
+                    <span class="text-main-color font-weight-bold angora-name">Le Cadeau</span>
+                </p>
+            </div>
+    </div>
+</footer>
+<!-- end footer section -->
 
 
     <!-- BOOTSTRAP -->
@@ -48,7 +469,10 @@
 
     <!-- MY J.S AND JQUERY FILES-->
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.skitter.min.js"></script>
     <script src="js/function.js"></script>
+    <script src="js/specialNeeds.js"></script>
 </body>
 
 </html>

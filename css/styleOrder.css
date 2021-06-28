@@ -1,0 +1,217 @@
+
+
+.bg-main-color
+{
+    background-color:#c8af97 ;
+}
+.bg-main2-color
+{
+    background-color:#ccc1c1 ;
+}
+.bg-grey-color
+{
+    background-color: #f6f6f6;
+}
+.bg-blackgray
+{
+    background-color:#aba4a3;
+}
+.bg-bnafsg
+{
+    background-color: #8d1454;
+}
+.text-main-color
+{
+    color:#c8af97 ;
+}
+.logo 
+{
+    mix-blend-mode: multiply !important;
+}
+.bg-black
+{
+    background-color: black;
+}
+.bg-bink
+{
+    background-color: #ffaaa9;
+}
+/*------- start navbar section ------- */
+.logo-navbar
+{
+    width: 20%;
+    height: 15%;   
+}
+.navbar-icon
+{
+    font-size: 1.2em;
+}
+.icon-navbar-border
+{
+    border: solid 2px white;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.icon-navbar-border:hover 
+{
+    border: solid 2px #8d1454;
+}
+.icon-navbar-border i
+{
+    transition: all 1s;
+}
+.icon-navbar-border:hover  i
+{
+    color: #8d1454 !important;  
+}
+
+.dropdown-menu a
+{
+color: #8d1454;
+background: #c8af97;
+}
+
+
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    background: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center  top ;
+}
+.color-overly
+{
+
+ background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); 
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    position: absolute;
+}
+
+form
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 600px;
+    height: 420px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+h2
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+}
+
+input[type="text"], input[type="email"]
+
+{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 500px;
+    height: 35px;
+    border-bottom: 2px solid #0094ff ;
+    background: none;
+    padding: 5px;
+    color: #fff;
+}
+
+input[type="text"]
+{
+    top: 140px;
+    left: 50px;
+}
+
+input[type="email"]
+{
+top: 210px;
+left: 50px;
+}
+
+input[value="TRACK"]
+{
+position: absolute;
+top: 305px;
+left: 110px;
+width: 380px;
+height: 35px;
+background: #0077ff;
+border: none;
+color: #fff;
+outline: none;
+border-radius: 15px;
+font-size: 20px;
+}
+
+input[value="TRACK"]:hover
+{
+background: #fff;
+color: #0077ff;
+}
+input::placeholder
+{
+    color: #fff;
+    opacity: .8;
+}
+
+#footer ul
+{
+    font-size: 1rem;
+}
+#footer  .footer-list
+{
+    transform: all 1s;
+}
+#footer .footer-list:hover a
+{
+    color:#8d1454 !important;
+}
+#footer a
+{
+    text-decoration: none;
+}
+#footer .box-copyright
+{
+    margin: auto;
+    width: 14rem;
+}
+#footer img
+{
+    width: 90%;
+    height: 25%;
+    margin:auto ;
+}
+#footer i
+{
+    font-size: 1.8rem;
+    transform: all 1s;
+}
+#footer .buyicon:hover
+{
+    color:#8d1454 !important ;
+}
+#footer .twitter:hover
+{
+    color:#45c9e0 !important ;
+}
+#footer .facebook:hover
+{
+    color:blue !important ;
+}
+#footer .instagram:hover
+{
+    color:orange !important ;
+}
+#footer .pinterest:hover
+{
+    color:red !important ;
+}

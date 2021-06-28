@@ -1,0 +1,123 @@
+.cogContainer {
+    color: rgb(85, 82, 82);
+    position: fixed;
+    bottom: 42%;
+    right: 0;
+    z-index: 3;
+}
+.hideText {
+    color:white;
+    font-size: 15px;
+    border: 2px solid #666666;
+    border-radius: 10px;
+    display:inline;
+    background-color: #666666;
+}
+
+.hideText:hover {
+    opacity: 0.8;
+    cursor:pointer;
+
+}
+.cogWheel:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.cogWheel{
+    color:#666666;
+    font-size: 40px;
+}
+#handicapOptions {
+    width: 15%;
+    text-align: center;
+    position: fixed;
+    bottom: 39%;
+    right: 3%;
+    z-index: 55;
+    background-color: white;
+    display: none;
+}
+.accessSec {
+    color: white;
+    background-color: #666666;
+    border: #666666 1px solid;
+    border-radius: 5px;
+}
+.accessSec p {
+    margin-top:5%!important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.optionsSec {
+    color: black;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 10% 0;
+    margin: 0 0!important;
+}
+.optionsSec i{
+    font-size: 40px;
+}
+
+.blockOne, .blockTwo, .blockThree, .blockFour {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5% 0;
+}
+
+.blockOne:hover {
+    cursor:pointer;
+    background-color: rgba(85, 82, 82,0.8);
+}
+.blockTwo:hover {
+    cursor:pointer;
+    background-color: rgba(85, 82, 82,0.8);
+}
+.blockThree:hover {
+    cursor:pointer;
+    background-color: rgba(85, 82, 82,0.8);
+}
+.blockFour:hover {
+    cursor:pointer;
+    background-color: rgba(85, 82, 82,0.8);
+}
+
+@media screen and (max-width:770px) {
+    .optionsSec i {
+        font-size: 30px;
+    }
+    .cogWheel {
+        font-size:25px;
+    }
+    .accessSec p{
+        font-size:12px;
+    }
+    .blockOne, .blockTwo, .blockThree, .blockFour {
+        padding: 1% 0;
+        font-size: 10px;
+    }
+    .hideText {
+        font-size:10px;
+    }
+}
+@media screen and (max-width:1130px) {
+.blockOne, .blockTwo, .blockThree, .blockFour {
+    padding:2% 0;
+    font-size: 15px;
+}
+}
+@media screen and (min-width:770px) and (max-width:1000px){
+    .blockOne, .blockTwo, .blockThree, .blockFour {
+        font-size: 10px;
+    }
+    .optionsSec i{
+        font-size: 25px;
+    }
+    /* .optionsSec {
+        padding: -5%;
+    }
+    .mainDiv {
+        padding:0!important;
+        margin: 0!important;
+    } */
+}
